@@ -1,0 +1,16 @@
+#services {
+    font-family: 'Pt Sans Caption', sans-serif;
+    padding: 0 var(--pd-left-right);
+}
+
+#services h1 {
+    color: var(--text-decoration);
+    font-size: 64px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,21 @@
+.container {
+    
+    padding: 0 var(--pd-left-right);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9e5e5;
+    font-family: Ubuntu, 'sans-serif';
+    font-size: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.phone-email {
+    display: flex;
+    justify-content: space-between;
+    width: 45vmin;
+}

@@ -1,0 +1,32 @@
+@import url("header.css");
+@import url("nav.css");
+@import url("hero.css");
+@import url("services.css");
+@import url("card.css");
+@import url("contact.css");
+@import url("footer.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&family=Rowdies&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #F5F5F5;
+
+    --text-decoration: #E3BC31;
+    --text-white: #FAFAFA;
+    --card-border: #000000;
+
+    --pd-left-right: 180px;
+    --card-w: 340px;
+    --card-h: 500px;
+
+    --footer-bg-color: #333;
+}

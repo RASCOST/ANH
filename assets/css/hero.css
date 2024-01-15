@@ -1,0 +1,33 @@
+#hero {
+    background-image: url('../ilustrations/hard_drive.jpg');
+    height: 39vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero h1 {
+    font-family: Rowdies, Ubuntu;
+    font-size: 60px;
+    padding: 50px 10px;
+}
+
+#hero h3 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 42px;
+}
+
+#hero h1, h3 {
+    color: var(--text-white);
+    text-align: center;
+}
+
+#hero input[type=button] {
+    background-color: var(--text-decoration);
+    width: 450px;
+    height: 100px;
+    border-radius: 10px;
+    font-family: 'PT Sans Caption';
+    font-size: 42px;
+    justify-self: end;
+}

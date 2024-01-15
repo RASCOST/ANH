@@ -1,0 +1,34 @@
+#navbar {
+    background-color: #92D1FF;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 var(--pd-left-right);
+    font-family: Ubuntu, 'sans-serif';
+    font-size: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+
+#navbar li {
+    margin: 0 20px;
+    align-self: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #000;
+}
+
+#navbar a:hover {
+    color: var(--text-white);
+}
+
+#navbar li:hover {
+    border-bottom: 4px solid var(--text-decoration);
+}

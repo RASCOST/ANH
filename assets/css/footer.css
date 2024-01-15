@@ -1,0 +1,40 @@
+#footer {
+    height: 270px;
+    margin-top: 50px;
+    padding: 20px var(--pd-left-right);
+    background-color: var(--footer-bg-color);
+    color: var(--text-white);
+    font-family: "Inter";
+    line-height: 1.4;
+}
+.footer-cols {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+#footer h3 {
+    color: var(--text-decoration);
+    margin-bottom: 20px;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+.made {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text-color {
+    color: var(--text-decoration);
+}
+
+.img-bg {
+    background-color: white;
+}
+
+.col-width {
+    width: 20vw;
+}
