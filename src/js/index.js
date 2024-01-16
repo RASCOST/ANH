@@ -6,4 +6,11 @@ const setYearFooter = () => {
     yearSpan.innerText = date.getFullYear()
 }
 
+const jumpto = (anchor) => {
+    window.location.href = "#"+anchor;
+    let url = location.href;
+    location.href = "#"+anchor;
+    history.replaceState(null,null,url);
+}
+
 setYearFooter()
