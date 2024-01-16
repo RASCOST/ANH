@@ -33,8 +33,18 @@
 
 .img-bg {
     background-color: white;
+    border-radius: 50%;
 }
 
 .col-width {
     width: 20vw;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+}
+
+.margin-lf {
+    margin-left: 10px;
 }
