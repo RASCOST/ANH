@@ -22,6 +22,19 @@
     list-style: none;
 }
 
+#footer a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+#footer a:hover {
+    color: var(--text-decoration);
+}
+
+#footer a:visited {
+    color: nherit;
+}
+
 .made {
     margin-top: 20px;
     text-align: center;
