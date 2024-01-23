@@ -22,3 +22,15 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.card ul {
+    list-style: none;
+}
+
+.card li::before {
+    content: "➡";
+    color: transparent;  
+    text-shadow: 0 0 0 var(--text-decoration);
+    font-size: 18px;
+    margin-right: 10px;
+}
