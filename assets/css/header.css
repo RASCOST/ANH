@@ -1,12 +1,13 @@
 .container {
-    
     padding: 0 var(--pd-left-right);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e9e5e5;
+    /*background-color: #e9e5e5;*/
+    background-color: var(--footer-bg-color);
     font-family: Ubuntu, 'sans-serif';
     font-size: 20px;
+    color: var(--text-decoration);
 }
 
 .logo {
