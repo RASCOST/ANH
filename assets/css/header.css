@@ -23,3 +23,17 @@
 .color-w {
     color: var(--text-white);
 }
+
+header a:link {
+    text-decoration: none;
+    margin: 0;
+    color: inherit;
+}
+
+header a:hover {
+    color: var(--text-decoration);
+}
+
+header a:visited {
+    color: inherit;
+}
