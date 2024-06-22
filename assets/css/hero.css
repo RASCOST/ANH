@@ -1,9 +1,10 @@
 #hero {
-    background-image: url('../ilustrations/hard_drive.jpg');
-    height: 39vw;
+    background-image: url('../illustrations/hard_drive.jpg');
+    height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 #hero h1 {
@@ -30,4 +31,9 @@
     font-family: 'PT Sans Caption';
     font-size: 42px;
     justify-self: end;
+}
+
+#hero input[type=button]:hover {
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
