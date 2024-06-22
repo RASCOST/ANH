@@ -1,4 +1,5 @@
 .container {
+    --ml: 10px;
     padding: 0 var(--pd-left-right);
     display: flex;
     justify-content: space-between;
@@ -15,8 +16,10 @@
     height: 100px;
 }
 
-.phone-email {
-    display: flex;
-    justify-content: space-between;
-    width: 45vmin;
+.mg-l {
+    margin-left: var(--ml);
+}
+
+.color-w {
+    color: var(--text-white);
 }
